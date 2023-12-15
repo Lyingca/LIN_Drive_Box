@@ -368,6 +368,30 @@ Core/Src/system_stm32g0xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIN_Drive_Box.elf.dir\build.make CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.s
 .PHONY : Core/Src/system_stm32g0xx.c.s
 
+Core/Src/tim.obj: Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIN_Drive_Box.elf.dir\build.make CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIN_Drive_Box.elf.dir\build.make CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIN_Drive_Box.elf.dir\build.make CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
+
 Core/Src/usart.obj: Core/Src/usart.c.obj
 .PHONY : Core/Src/usart.obj
 
@@ -871,6 +895,9 @@ help:
 	@echo ... Core/Src/system_stm32g0xx.obj
 	@echo ... Core/Src/system_stm32g0xx.i
 	@echo ... Core/Src/system_stm32g0xx.s
+	@echo ... Core/Src/tim.obj
+	@echo ... Core/Src/tim.i
+	@echo ... Core/Src/tim.s
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s

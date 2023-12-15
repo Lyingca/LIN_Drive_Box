@@ -205,13 +205,13 @@ void EXV_Loop_Execution(uint16_t cycles,uint16_t test_step,uint16_t reset_step)
             {
                 currentCycleCount--;
             }
-            DisplayCharacter(SECOND_LINE + 5,currentCycleCount,5);
+//            DisplayCharacter(SECOND_LINE + 5,currentCycleCount,5);
         }
         else
         {
             step = reset_step;
         }
-        DisplayChineseCharacter(FOURTH_LINE,"                ", strlen("                "));
+        DisplayChineseCharacter(THIRD_LINE,"                ", strlen("                "));
         Data_To_LIN(step,currentCycleCount,0);
     }
 }
@@ -240,19 +240,19 @@ void CollectCompleteEXVNum()
     if(pLINRxBuff[2] == LIN_PID_53_0x35)
     {
         EXV_Finished_Count |= 0x01;
-        DisplayChineseCharacter(FOURTH_LINE,"0x34", strlen("0x34"));
+        DisplayChineseCharacter(THIRD_LINE,"0x34", strlen("0x34"));
         HAL_Delay(100);
     }
     else if(pLINRxBuff[2] == LIN_PID_55_0x37)
     {
         EXV_Finished_Count |= 0x02;
-        DisplayChineseCharacter(FOURTH_LINE + 3,"0x36", strlen("0x36"));
+        DisplayChineseCharacter(THIRD_LINE + 3,"0x36", strlen("0x36"));
         HAL_Delay(100);
     }
     else if(pLINRxBuff[2] == LIN_PID_32_0x20)
     {
         EXV_Finished_Count |= 0x04;
-        DisplayChineseCharacter(FOURTH_LINE + 6,"0x10", strlen("0x10"));
+        DisplayChineseCharacter(THIRD_LINE + 6,"0x10", strlen("0x10"));
         HAL_Delay(100);
     }
 }

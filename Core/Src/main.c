@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -50,6 +51,9 @@ uint8_t RevByte = 0;
 uint8_t pRevByte = 0;
 uint8_t RxFlag = 0;
 uint8_t RxLength = 0;
+uint8_t selectMode = 1;
+uint8_t timer = 0;
+uint8_t powerOn = ENABLE;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -94,6 +98,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART2_UART_Init();
+  MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
     //一定要先清除串口空闲中断，然后在打开串口空闲中断，因为串口初始化完成后会自动将IDLE置位，
     // 导致还没有接受数据就进入到中断里面去了，所以打开IDLE之前，先把它清楚掉
@@ -103,6 +108,10 @@ int main(void)
     __HAL_UART_ENABLE_IT(&huart2,UART_IT_IDLE);
     //开启中断接收
     Util_Receive_IT(&huart2);
+    //使能更新中断
+    HAL_TIM_Base_Start_IT(&htim6);
+    //启动定时器
+    HAL_TIM_Base_Start(&htim6);
     //使能系统运行指示灯
     HAL_GPIO_WritePin(LED_System_GPIO_Port,LED_System_Pin,GPIO_PIN_SET);
     //使能TJA1028LIN芯片的EN
@@ -110,6 +119,12 @@ int main(void)
     //使能TJA1028LIN芯片的RSTN
     HAL_GPIO_WritePin(TJA1028_RSTN_GPIO_Port,TJA1028_RSTN_Pin,GPIO_PIN_SET);
     LCDInit();
+    //初始化数据
+    timer = 0;
+    InfiniteLoop = 1;
+    currentStepSize = 480;
+    currentCycleCount = 61000;
+    Data_To_LIN(currentStepSize,currentCycleCount,0);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -117,37 +132,43 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-      //检测加减按键
-      Operation_Key_Scan(Step_Add_GPIO_Port,Step_Add_Pin,1,STEP_DIGITAL);
-      Operation_Key_Scan(Step_Sub_GPIO_Port,Step_Sub_Pin,0,STEP_DIGITAL);
-      Operation_Key_Scan(Loop_Add_GPIO_Port,Loop_Add_Pin,1,LOOP_DIGITAL);
-      Operation_Key_Scan(Loop_Sub_GPIO_Port,Loop_Sub_Pin,0,LOOP_DIGITAL);
-      //检测初始化按钮
-      if (General_Key_Scan(Init_Key_GPIO_Port,Init_Key_Pin))
+
+      //显示屏刷新
+      if (powerOn)
       {
-          Data_To_LIN(0,0,1);
+          DisplayChineseCharacter(FIRST_LINE + 3,operation,sizeof(operation) / sizeof(uint8_t));
       }
-      //检测开始按钮
+      else
+      {
+          DisplayChineseCharacter(FIRST_LINE + 3,stop,sizeof(stop) / sizeof(uint8_t));
+      }
+      DisplayCharacter(SECOND_LINE + 3,timer,3);
+      DisplayCharacter(FOURTH_LINE + 5,selectMode,1);
+      //检测开始按钮（模式1）
       if (General_Key_Scan(Start_Key_GPIO_Port,Start_Key_Pin))
       {
-          if (currentCycleCount == 61000)
-          {
-              InfiniteLoop = 1;
-          }
-          else
-          {
-              InfiniteLoop = 0;
-          }
-          DisplayChineseCharacter(FOURTH_LINE,"                ", strlen("                "));
-          Data_To_LIN(currentStepSize,currentCycleCount,0);
+          selectMode = 1;
+          powerOn = ENABLE;
+          timer = 0;
+          //定时器计数清零
+          __HAL_TIM_SET_COUNTER(&htim6,0);
+          DisplayChineseCharacter(THIRD_LINE,"                ", strlen("                "));
       }
-      //检测结束按钮
+      //检测结束按钮（模式2）
       if (General_Key_Scan(Finished_Key_GPIO_Port,Finished_Key_Pin))
       {
-          Finished_LIN(DISABLE,DISABLE);
+          selectMode = 2;
+          powerOn = ENABLE;
+          timer = 0;
+          //定时器计数清零
+          __HAL_TIM_SET_COUNTER(&htim6,0);
+          DisplayChineseCharacter(THIRD_LINE,"                ", strlen("                "));
       }
       //循环发送数据
-      Send_LIN_Data();
+      if(powerOn)
+      {
+          Send_LIN_Data();
+      }
       if (RxFlag)
       {
           LIN_Data_Process(RxLength);
@@ -268,6 +289,31 @@ void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
 }
 
 /**
+ * 定时器中断回调函数-1分钟中断一次
+ * @param htim
+ */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if(htim->Instance == htim6.Instance)
+    {
+        timer++;
+        if(selectMode == 1 && timer == 240)
+        {
+            stateReversal(&powerOn);
+            timer = 0;
+        }
+        if (selectMode == 2 && powerOn == ENABLE && timer == 1){
+            powerOn = DISABLE;
+            timer = 0;
+        }
+        if (selectMode == 2 && powerOn == DISABLE && timer == 240){
+            powerOn = ENABLE;
+            timer = 0;
+        }
+    }
+}
+
+/**
  * 不推荐在中断里使用延时函数
  * 在实际应用中发现，在STM32的中断里使用延时函数HAL_Delay(Delay)容易出现问题（与SysTick中断的优先级），故采用while(t--)代替延时函数
  * 12864显示屏的写操作中使用了HAL_Delay(Delay)函数，导致程序卡在延时函数无法跳出来
@@ -277,6 +323,22 @@ void ms_Delay(uint16_t t_ms)
 {
     uint32_t t = t_ms * 3127;
     while (t--);
+}
+
+/**
+ * 状态反转
+ * @param state
+ */
+void stateReversal(uint8_t *state)
+{
+    if (*state == DISABLE)
+    {
+        *state = ENABLE;
+    }
+    else
+    {
+        *state = DISABLE;
+    }
 }
 /* USER CODE END 4 */
 

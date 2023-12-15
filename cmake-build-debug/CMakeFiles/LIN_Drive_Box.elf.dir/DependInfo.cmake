@@ -40,6 +40,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/syscalls.c" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/syscalls.c.obj.d"
   "D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/sysmem.c" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/sysmem.c.obj.d"
   "D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/system_stm32g0xx.c" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj" "gcc" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj.d"
+  "D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/tim.c" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj.d"
   "D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/usart.c" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj.d"
   "D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c" "CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj" "gcc" "CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj.d"
   "D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c" "CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj" "gcc" "CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj.d"

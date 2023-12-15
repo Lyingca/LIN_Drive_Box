@@ -82,7 +82,7 @@ void Update_Data(uint8_t step, uint8_t step_loop)
                 --currentStepSize;
             }
         }
-        DisplayCharacter(FIRST_LINE + 5,currentStepSize,3);
+//        DisplayCharacter(FIRST_LINE + 5,currentStepSize,3);
     }
     if (step_loop == LOOP_DIGITAL)
     {
@@ -105,6 +105,6 @@ void Update_Data(uint8_t step, uint8_t step_loop)
                 currentCycleCount -= 100;
             }
         }
-        DisplayCharacter(SECOND_LINE + 5,currentCycleCount,5);
+//        DisplayCharacter(SECOND_LINE + 5,currentCycleCount,5);
     }
 }

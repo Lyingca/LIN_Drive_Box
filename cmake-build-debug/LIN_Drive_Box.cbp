@@ -117,6 +117,9 @@
 		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/stm32g0xx_it.h">
 			<Option target="LIN_Drive_Box.elf"/>
 		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/tim.h">
+			<Option target="LIN_Drive_Box.elf"/>
+		</Unit>
 		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/usart.h">
 			<Option target="LIN_Drive_Box.elf"/>
 		</Unit>
@@ -148,6 +151,9 @@
 			<Option target="LIN_Drive_Box.elf"/>
 		</Unit>
 		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/system_stm32g0xx.c">
+			<Option target="LIN_Drive_Box.elf"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/tim.c">
 			<Option target="LIN_Drive_Box.elf"/>
 		</Unit>
 		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/usart.c">
@@ -328,6 +334,9 @@
 			<Option target="LIN_Drive_Box.elf"/>
 		</Unit>
 		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h">
+			<Option target="LIN_Drive_Box.elf"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h">
 			<Option target="LIN_Drive_Box.elf"/>
 		</Unit>
 		<Unit filename="D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h">

@@ -208,10 +208,24 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.s"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Src\system_stm32g0xx.c -o CMakeFiles\LIN_Drive_Box.elf.dir\Core\Src\system_stm32g0xx.c.s
 
+CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
+CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/tim.c
+CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj"
+	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Core\Src\tim.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Src\tim.c
+
+CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.i"
+	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Src\tim.c > CMakeFiles\LIN_Drive_Box.elf.dir\Core\Src\tim.c.i
+
+CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.s"
+	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Src\tim.c -o CMakeFiles\LIN_Drive_Box.elf.dir\Core\Src\tim.c.s
+
 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/usart.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Core\Src\usart.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Src\usart.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Startup/startup_stm32g070rbtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\LIN_Drive_Box.elf.dir\Core\Startup\startup_stm32g070rbtx.s.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Startup\startup_stm32g070rbtx.s
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.s: cmake_f
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_cortex.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_cortex.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_cortex.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_dma.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_dma.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_dma.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_dma_ex.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_dma_ex.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_dma_ex.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_exti.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_exti.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_exti.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_flash.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_flash.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_flash.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_flash_ex.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_flash_ex.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_flash_ex.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_gpio.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_gpio.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_gpio.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_pwr.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_pwr.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_pwr.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_pwr_ex.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_pwr_ex.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_pwr_ex.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rcc.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rcc.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rcc.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rcc_ex.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rcc_ex.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_rcc_ex.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_tim.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_tim.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_tim.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_tim_ex.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_tim_ex.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_tim_ex.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_uart.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_uart.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_uart.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_uart_ex.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_uart_ex.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_hal_uart_ex.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_ll_dma.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_ll_dma.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_ll_dma.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i: cmake_force
@@ -476,7 +490,7 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_d
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/flags.make
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj: CMakeFiles/LIN_Drive_Box.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj"
 	D:\STMicroelectronics\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj -MF CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_ll_rcc.c.obj.d -o CMakeFiles\LIN_Drive_Box.elf.dir\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_ll_rcc.c.obj -c D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Src\stm32g0xx_ll_rcc.c
 
 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i: cmake_force
@@ -499,6 +513,7 @@ LIN_Drive_Box_elf_OBJECTS = \
 "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj" \
+"CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj" \
 "CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj" \
@@ -533,6 +548,7 @@ LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/syscalls.c.obj
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/sysmem.c.obj
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
@@ -555,7 +571,7 @@ LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/build.make
 LIN_Drive_Box.elf: CMakeFiles/LIN_Drive_Box.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable LIN_Drive_Box.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\JetBrains\CLionProjects\LIN_Drive_Box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable LIN_Drive_Box.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LIN_Drive_Box.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/JetBrains/CLionProjects/LIN_Drive_Box/cmake-build-debug/LIN_Drive_Box.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/JetBrains/CLionProjects/LIN_Drive_Box/cmake-build-debug/LIN_Drive_Box.bin"

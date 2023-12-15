@@ -39,6 +39,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj: D:/JetBrains/CLionProject
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h \
   D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h \
@@ -94,6 +96,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj: D:/JetBrains/CLionProjects/
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/12864.h \
@@ -153,6 +157,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj: D:/JetBrains/CLionProjects
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -194,6 +200,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj: D:/JetBrains/CLionProjects/
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/12864.h \
@@ -249,10 +257,13 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj: D:/JetBrains/CLionProjects
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h \
-  D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/usart.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/tim.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/main.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/usart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/gpio.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/key.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/12864.h \
@@ -311,6 +322,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj: D:/JetBrains/
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -351,6 +364,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj: D:/JetBrains/CLion
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/stm32g0xx_it.h \
@@ -474,6 +489,51 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj: D:/JetBrains/C
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
+
+CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj: D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/tim.c \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/main.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/stm32g0xx_hal_conf.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Include/core_cm0plus.h \
+  D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h \
+  D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+  D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -515,6 +575,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj: D:/JetBrains/CLionProject
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -554,6 +616,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -593,6 +657,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -632,6 +698,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -671,6 +739,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -710,6 +780,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -749,6 +821,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -788,6 +862,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -827,6 +903,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -866,6 +944,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -905,6 +985,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -944,6 +1026,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -983,6 +1067,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -1022,6 +1108,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -1061,6 +1149,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -1100,6 +1190,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -1139,6 +1231,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h \
+  D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h \
   D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h
 
@@ -1186,6 +1280,8 @@ D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/CMSIS/Include/core_cm0plus.h:
 
 D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h:
+
+D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/tim.c:
 
 D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 
@@ -1241,8 +1337,6 @@ D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machi
 
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h:
 
-D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/stm32g0xx_hal_msp.c:
-
 D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/string.h:
 
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h:
@@ -1257,11 +1351,15 @@ D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g
 
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h:
 
+D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h:
+
+D:/JetBrains/CLionProjects/LIN_Drive_Box/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h:
+
 D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/string.h:
 
-D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h:
-
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/stm32g0xx_it.c:
+
+D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h:
 
 D:/STMicroelectronics/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h:
 
@@ -1277,11 +1375,15 @@ D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/LIN.c:
 
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/LIN.h:
 
-D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/gpio.c:
-
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/stm32g0xx_it.h:
 
+D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/gpio.c:
+
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/main.c:
+
+D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Inc/tim.h:
+
+D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/stm32g0xx_hal_msp.c:
 
 D:/JetBrains/CLionProjects/LIN_Drive_Box/Core/Src/syscalls.c:
 

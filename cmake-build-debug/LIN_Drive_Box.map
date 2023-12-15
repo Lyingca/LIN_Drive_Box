@@ -48,12 +48,18 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
  .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+ .text.Finished_LIN
+                0x00000000       0x14 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
  .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
  .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
  .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
  .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+ .text.Update_Data
+                0x00000000       0x8c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+ .text.Operation_Key_Scan
+                0x00000000       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
  .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
@@ -122,6 +128,11 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
  .text.SystemCoreClockUpdate
                 0x00000000       0xb8 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .text.HAL_TIM_Base_MspDeInit
+                0x00000000       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
  .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
  .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
@@ -513,26 +524,326 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .debug_info    0x00000000       0xb1 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .debug_abbrev  0x00000000       0x5f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .debug_line    0x00000000      0x140 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .debug_str     0x00000000      0x213 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .comment       0x00000000       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
- .ARM.attributes
+ .text.TIM_OC1_SetConfig
+                0x00000000       0x8c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_OC3_SetConfig
+                0x00000000       0x94 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_OC4_SetConfig
+                0x00000000       0x74 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_OC5_SetConfig
+                0x00000000       0x6c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_OC6_SetConfig
+                0x00000000       0x74 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_TI1_ConfigInputStage
+                0x00000000       0x22 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_TI2_SetConfig
+                0x00000000       0x38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_TI2_ConfigInputStage
+                0x00000000       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_TI3_SetConfig
+                0x00000000       0x3c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_TI4_SetConfig
+                0x00000000       0x44 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_ITRx_SetConfig
+                0x00000000       0x14 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_MspInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_MspDeInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_DeInit
+                0x00000000       0x6c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Stop
                 0x00000000       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Stop_IT
+                0x00000000       0x38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Start_DMA
+                0x00000000       0xb8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Stop_DMA
+                0x00000000       0x44 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_MspInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_MspDeInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_DeInit
+                0x00000000       0x6c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_MspInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_MspDeInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_DeInit
+                0x00000000       0x6c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_MspInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_MspDeInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_DeInit
+                0x00000000       0x6c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_MspInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_MspDeInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_DeInit
+                0x00000000       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_MspInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_MspDeInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_DeInit
+                0x00000000       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_MultiWriteStart
+                0x00000000      0x1c0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_WriteStart
+                0x00000000       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_WriteStop
+                0x00000000       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_MultiReadStart
+                0x00000000      0x1c0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_ReadStart
+                0x00000000       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_ReadStop
+                0x00000000       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_GenerateEvent
+                0x00000000       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_ConfigTI1Input
+                0x00000000       0x10 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_ReadCapturedValue
+                0x00000000       0x32 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMAPeriodElapsedCplt
+                0x00000000       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PeriodElapsedHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMAPeriodElapsedHalfCplt
+                0x00000000        0xa CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMACaptureCplt
+                0x00000000       0x80 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_CaptureHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMACaptureHalfCplt
+                0x00000000       0x3e CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMADelayPulseCplt
+                0x00000000       0x70 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_PulseFinishedHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMADelayPulseHalfCplt
+                0x00000000       0x3e CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMATriggerCplt
+                0x00000000       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_TriggerHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMATriggerHalfCplt
+                0x00000000        0xa CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_ErrorCallback
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_DMAError
+                0x00000000       0x5c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_GetState
+                0x00000000        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_GetState
+                0x00000000        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_GetState
+                0x00000000        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_GetState
+                0x00000000        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_GetState
+                0x00000000        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_GetState
+                0x00000000        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_GetActiveChannel
+                0x00000000        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_GetChannelState
+                0x00000000       0x44 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurstState
+                0x00000000        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Init
+                0x00000000       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Init
+                0x00000000       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Init
+                0x00000000       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Init
+                0x00000000       0x5e CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Init
+                0x00000000       0xbc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_OC2_SetConfig
+                0x00000000       0x88 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_ConfigChannel
+                0x00000000       0x6c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .rodata.HAL_TIM_OC_ConfigChannel
+                0x00000000       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_ConfigChannel
+                0x00000000      0x144 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .rodata.HAL_TIM_PWM_ConfigChannel
+                0x00000000       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_TI1_SetConfig
+                0x00000000       0x58 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_ConfigChannel
+                0x00000000       0xcc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_ConfigChannel
+                0x00000000      0x110 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_ETR_SetConfig
+                0x00000000       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_ConfigOCrefClear
+                0x00000000      0x180 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .rodata.HAL_TIM_ConfigOCrefClear
+                0x00000000       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_ConfigClockSource
+                0x00000000      0x108 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_SlaveTimer_SetConfig
+                0x00000000       0xc4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_SlaveConfigSynchro
+                0x00000000       0x5c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_SlaveConfigSynchro_IT
+                0x00000000       0x5c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.TIM_CCxChannelCmd
+                0x00000000       0x1a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Start
+                0x00000000      0x13c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Stop
+                0x00000000       0xc0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Start_IT
+                0x00000000      0x188 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Stop_IT
+                0x00000000      0x114 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Start_DMA
+                0x00000000      0x2c0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Stop_DMA
+                0x00000000      0x13c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Start
+                0x00000000      0x13c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Stop
+                0x00000000       0xc0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Start_IT
+                0x00000000      0x188 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Stop_IT
+                0x00000000      0x114 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Start_DMA
+                0x00000000      0x2c0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Stop_DMA
+                0x00000000      0x13c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Start
+                0x00000000      0x148 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Stop
+                0x00000000       0xa0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Start_IT
+                0x00000000      0x194 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Stop_IT
+                0x00000000       0xf0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Start_DMA
+                0x00000000      0x270 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Stop_DMA
+                0x00000000      0x118 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Start
+                0x00000000       0x9c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Stop
+                0x00000000       0x98 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Start_IT
+                0x00000000       0xac CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Stop_IT
+                0x00000000       0xac CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Start
+                0x00000000       0xc8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Stop
+                0x00000000       0xe8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Start_IT
+                0x00000000       0xf0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Stop_IT
+                0x00000000      0x110 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Start_DMA
+                0x00000000      0x264 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Stop_DMA
+                0x00000000      0x130 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
  .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .debug_info    0x00000000       0xb1 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00000000       0x5f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .debug_line    0x00000000      0x140 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .debug_str     0x00000000      0x216 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .comment       0x00000000       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
- .ARM.attributes
+ .text.TIM_CCxNChannelCmd
+                0x00000000       0x1a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.TIM_DMAErrorCCxN
+                0x00000000       0x44 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.TIM_DMADelayPulseNCplt
+                0x00000000       0x70 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_MspInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Init
+                0x00000000       0xdc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_MspDeInit
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_DeInit
+                0x00000000       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Start
+                0x00000000       0xa8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Stop
+                0x00000000       0x48 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Start_IT
+                0x00000000       0xb0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Stop_IT
+                0x00000000       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Start_DMA
+                0x00000000       0xd8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Stop_DMA
+                0x00000000       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Start
+                0x00000000       0xe0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Stop
+                0x00000000       0x7c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Start_IT
+                0x00000000      0x120 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Stop_IT
+                0x00000000       0xc8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Start_DMA
+                0x00000000      0x1fc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Stop_DMA
+                0x00000000       0xd4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Start
+                0x00000000       0xe0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Stop
+                0x00000000       0x7c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Start_IT
+                0x00000000      0x120 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Stop_IT
+                0x00000000       0xc8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Start_DMA
+                0x00000000      0x1fc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Stop_DMA
+                0x00000000       0xd4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OnePulseN_Start
+                0x00000000       0x76 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OnePulseN_Stop
+                0x00000000       0x78 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OnePulseN_Start_IT
+                0x00000000       0x88 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OnePulseN_Stop_IT
+                0x00000000       0x8c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigCommutEvent
+                0x00000000       0x78 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigCommutEvent_IT
+                0x00000000       0x78 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigCommutEvent_DMA
+                0x00000000       0x94 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigBreakDeadTime
+                0x00000000       0xcc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigBreakInput
+                0x00000000       0x74 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_RemapConfig
+                0x00000000       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_TISelection
+                0x00000000       0x64 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_GroupChannel5
+                0x00000000       0x38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_DisarmBreakInput
+                0x00000000       0x58 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ReArmBreakInput
+                0x00000000       0x78 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.TIMEx_DMACommutationCplt
+                0x00000000       0x10 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_CommutHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.TIMEx_DMACommutationHalfCplt
+                0x00000000       0x10 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_GetState
+                0x00000000        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_GetChannelNState
                 0x00000000       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
  .text          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .data          0x00000000        0x0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
@@ -791,6 +1102,7 @@ LOAD CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
 LOAD CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/syscalls.c.obj
 LOAD CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/sysmem.c.obj
 LOAD CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+LOAD CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
 LOAD CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
 LOAD CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
 LOAD CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
@@ -829,7 +1141,7 @@ LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-non
                 0x08000000                g_pfnVectors
                 0x080000b8                . = ALIGN (0x4)
 
-.text           0x080000b8     0x3180
+.text           0x080000b8     0x35f8
                 0x080000b8                . = ALIGN (0x4)
  *(.text)
  .text          0x080000b8       0x48 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
@@ -860,70 +1172,68 @@ LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-non
  .text.DisplayCharacter
                 0x080005d2       0x6a CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
                 0x080005d2                DisplayCharacter
- .text.LCDInit  0x0800063c       0xac CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+ .text.LCDInit  0x0800063c       0xb8 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
                 0x0800063c                LCDInit
  .text.LIN_Check_Sum
-                0x080006e8       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x080006e8                LIN_Check_Sum
+                0x080006f4       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x080006f4                LIN_Check_Sum
  .text.LIN_Check_Sum_En
-                0x0800070c       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x0800070c                LIN_Check_Sum_En
+                0x08000718       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x08000718                LIN_Check_Sum_En
  .text.LIN_Tx_PID_Data
-                0x08000730       0x4c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x08000730                LIN_Tx_PID_Data
+                0x0800073c       0x4c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x0800073c                LIN_Tx_PID_Data
  .text.LIN_Tx_PID
-                0x0800077c       0x34 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x0800077c                LIN_Tx_PID
+                0x08000788       0x34 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x08000788                LIN_Tx_PID
  .text.Data_To_LIN
-                0x080007b0       0x78 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x080007b0                Data_To_LIN
- .text.Finished_LIN
-                0x08000828       0x14 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x08000828                Finished_LIN
+                0x080007bc       0x78 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x080007bc                Data_To_LIN
  .text.Send_LIN_Data
-                0x0800083c       0x84 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x0800083c                Send_LIN_Data
+                0x08000834       0x84 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x08000834                Send_LIN_Data
  .text.EXV_Loop_Execution
-                0x080008c0       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x080008c0                EXV_Loop_Execution
+                0x080008b8       0x48 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x080008b8                EXV_Loop_Execution
  .text.Feedback_Signal
-                0x08000910       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x08000910                Feedback_Signal
+                0x08000900       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x08000900                Feedback_Signal
  .text.CollectCompleteEXVNum
-                0x08000950       0x7c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x08000950                CollectCompleteEXVNum
+                0x08000940       0x7c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x08000940                CollectCompleteEXVNum
  .text.LIN_Data_Process
-                0x080009cc      0x15c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x080009cc                LIN_Data_Process
+                0x080009bc      0x15c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x080009bc                LIN_Data_Process
  .text.MX_GPIO_Init
-                0x08000b28      0x130 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
-                0x08000b28                MX_GPIO_Init
+                0x08000b18      0x130 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
+                0x08000b18                MX_GPIO_Init
  .text.General_Key_Scan
-                0x08000c58       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
-                0x08000c58                General_Key_Scan
- .text.Update_Data
-                0x08000c7c       0xac CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
-                0x08000c7c                Update_Data
- .text.Operation_Key_Scan
-                0x08000d28       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
-                0x08000d28                Operation_Key_Scan
+                0x08000c48       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+                0x08000c48                General_Key_Scan
  .text.UART_IDLECallBack
-                0x08000d58       0x3c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x08000d58                UART_IDLECallBack
+                0x08000c6c       0x3c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x08000c6c                UART_IDLECallBack
  .text.ms_Delay
-                0x08000d94       0x14 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x08000d94                ms_Delay
+                0x08000ca8       0x14 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x08000ca8                ms_Delay
+ .text.stateReversal
+                0x08000cbc       0x12 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x08000cbc                stateReversal
+ *fill*         0x08000cce        0x2 
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x08000cd0       0x88 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x08000cd0                HAL_TIM_PeriodElapsedCallback
  .text.Error_Handler
-                0x08000da8        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x08000da8                Error_Handler
+                0x08000d58        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x08000d58                Error_Handler
  .text.SystemClock_Config
-                0x08000dac       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x08000dac                SystemClock_Config
+                0x08000d5c       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x08000d5c                SystemClock_Config
  .text.Util_Receive_IT
-                0x08000e0c       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x08000e0c                Util_Receive_IT
- .text.main     0x08000e30      0x13c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x08000e30                main
+                0x08000dbc       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x08000dbc                Util_Receive_IT
+ .text.main     0x08000de0      0x18c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x08000de0                main
  .text.HAL_UART_RxCpltCallback
                 0x08000f6c       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
                 0x08000f6c                HAL_UART_RxCpltCallback
@@ -948,436 +1258,502 @@ LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-non
  .text.SysTick_Handler
                 0x0800100c        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
                 0x0800100c                SysTick_Handler
+ .text.TIM6_IRQHandler
+                0x08001014       0x10 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x08001014                TIM6_IRQHandler
  .text.USART2_IRQHandler
-                0x08001014       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
-                0x08001014                USART2_IRQHandler
+                0x08001024       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x08001024                USART2_IRQHandler
  .text.SystemInit
-                0x0800102c        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
-                0x0800102c                SystemInit
- *fill*         0x0800102e        0x2 
+                0x0800103c        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x0800103c                SystemInit
+ *fill*         0x0800103e        0x2 
+ .text.MX_TIM6_Init
+                0x08001040       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+                0x08001040                MX_TIM6_Init
+ .text.HAL_TIM_Base_MspInit
+                0x080010a0       0x3c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+                0x080010a0                HAL_TIM_Base_MspInit
  .text.MX_USART2_UART_Init
-                0x08001030       0x74 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
-                0x08001030                MX_USART2_UART_Init
+                0x080010dc       0x74 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+                0x080010dc                MX_USART2_UART_Init
  .text.HAL_UART_MspInit
-                0x080010a4       0x94 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
-                0x080010a4                HAL_UART_MspInit
+                0x08001150       0x94 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+                0x08001150                HAL_UART_MspInit
  .text.Reset_Handler
-                0x08001138       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
-                0x08001138                Reset_Handler
+                0x080011e4       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+                0x080011e4                Reset_Handler
  .text.Default_Handler
-                0x08001188        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
-                0x08001188                TIM1_CC_IRQHandler
-                0x08001188                TIM6_IRQHandler
-                0x08001188                I2C1_IRQHandler
-                0x08001188                RTC_TAMP_IRQHandler
-                0x08001188                SPI1_IRQHandler
-                0x08001188                USART3_4_IRQHandler
-                0x08001188                EXTI2_3_IRQHandler
-                0x08001188                ADC1_IRQHandler
-                0x08001188                I2C2_IRQHandler
-                0x08001188                TIM17_IRQHandler
-                0x08001188                TIM16_IRQHandler
-                0x08001188                TIM3_IRQHandler
-                0x08001188                EXTI4_15_IRQHandler
-                0x08001188                RCC_IRQHandler
-                0x08001188                DMA1_Channel1_IRQHandler
-                0x08001188                Default_Handler
-                0x08001188                TIM14_IRQHandler
-                0x08001188                TIM7_IRQHandler
-                0x08001188                TIM15_IRQHandler
-                0x08001188                EXTI0_1_IRQHandler
-                0x08001188                SPI2_IRQHandler
-                0x08001188                WWDG_IRQHandler
-                0x08001188                DMA1_Ch4_7_DMAMUX1_OVR_IRQHandler
-                0x08001188                DMA1_Channel2_3_IRQHandler
-                0x08001188                FLASH_IRQHandler
-                0x08001188                USART1_IRQHandler
-                0x08001188                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x0800118a        0x2 
+                0x08001234        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+                0x08001234                TIM1_CC_IRQHandler
+                0x08001234                I2C1_IRQHandler
+                0x08001234                RTC_TAMP_IRQHandler
+                0x08001234                SPI1_IRQHandler
+                0x08001234                USART3_4_IRQHandler
+                0x08001234                EXTI2_3_IRQHandler
+                0x08001234                ADC1_IRQHandler
+                0x08001234                I2C2_IRQHandler
+                0x08001234                TIM17_IRQHandler
+                0x08001234                TIM16_IRQHandler
+                0x08001234                TIM3_IRQHandler
+                0x08001234                EXTI4_15_IRQHandler
+                0x08001234                RCC_IRQHandler
+                0x08001234                DMA1_Channel1_IRQHandler
+                0x08001234                Default_Handler
+                0x08001234                TIM14_IRQHandler
+                0x08001234                TIM7_IRQHandler
+                0x08001234                TIM15_IRQHandler
+                0x08001234                EXTI0_1_IRQHandler
+                0x08001234                SPI2_IRQHandler
+                0x08001234                WWDG_IRQHandler
+                0x08001234                DMA1_Ch4_7_DMAMUX1_OVR_IRQHandler
+                0x08001234                DMA1_Channel2_3_IRQHandler
+                0x08001234                FLASH_IRQHandler
+                0x08001234                USART1_IRQHandler
+                0x08001234                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x08001236        0x2 
  .text.HAL_InitTick
-                0x0800118c       0x58 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x0800118c                HAL_InitTick
+                0x08001238       0x58 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x08001238                HAL_InitTick
  .text.HAL_Init
-                0x080011e4       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x080011e4                HAL_Init
+                0x08001290       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x08001290                HAL_Init
  .text.HAL_IncTick
-                0x0800120c       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x0800120c                HAL_IncTick
+                0x080012b8       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x080012b8                HAL_IncTick
  .text.HAL_GetTick
-                0x08001224        0xc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x08001224                HAL_GetTick
+                0x080012d0        0xc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x080012d0                HAL_GetTick
  .text.HAL_Delay
-                0x08001230       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x08001230                HAL_Delay
+                0x080012dc       0x24 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x080012dc                HAL_Delay
  .text.HAL_SYSCFG_StrobeDBattpinsConfig
-                0x08001254       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x08001254                HAL_SYSCFG_StrobeDBattpinsConfig
+                0x08001300       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x08001300                HAL_SYSCFG_StrobeDBattpinsConfig
  .text.HAL_NVIC_SetPriority
-                0x0800126c       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
-                0x0800126c                HAL_NVIC_SetPriority
+                0x08001318       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x08001318                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x080012cc       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
-                0x080012cc                HAL_NVIC_EnableIRQ
+                0x08001378       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x08001378                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x080012e4       0x38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
-                0x080012e4                HAL_SYSTICK_Config
+                0x08001390       0x38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x08001390                HAL_SYSTICK_Config
  .text.HAL_DMA_Abort
-                0x0800131c       0x80 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
-                0x0800131c                HAL_DMA_Abort
+                0x080013c8       0x80 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x080013c8                HAL_DMA_Abort
  .text.HAL_DMA_Abort_IT
-                0x0800139c       0x80 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
-                0x0800139c                HAL_DMA_Abort_IT
+                0x08001448       0x80 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x08001448                HAL_DMA_Abort_IT
  .text.HAL_GPIO_Init
-                0x0800141c      0x178 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
-                0x0800141c                HAL_GPIO_Init
+                0x080014c8      0x178 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+                0x080014c8                HAL_GPIO_Init
  .text.HAL_GPIO_ReadPin
-                0x08001594        0xe CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
-                0x08001594                HAL_GPIO_ReadPin
+                0x08001640        0xe CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+                0x08001640                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x080015a2        0xc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
-                0x080015a2                HAL_GPIO_WritePin
- *fill*         0x080015ae        0x2 
+                0x0800164e        0xc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+                0x0800164e                HAL_GPIO_WritePin
+ *fill*         0x0800165a        0x2 
  .text.HAL_PWREx_ControlVoltageScaling
-                0x080015b0       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
-                0x080015b0                HAL_PWREx_ControlVoltageScaling
+                0x0800165c       0x54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+                0x0800165c                HAL_PWREx_ControlVoltageScaling
  .text.HAL_RCC_OscConfig
-                0x08001604      0x4a4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
-                0x08001604                HAL_RCC_OscConfig
+                0x080016b0      0x4a4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x080016b0                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001aa8       0xb8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
-                0x08001aa8                HAL_RCC_GetSysClockFreq
+                0x08001b54       0xb8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x08001b54                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08001b60      0x18c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
-                0x08001b60                HAL_RCC_ClockConfig
+                0x08001c0c      0x18c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x08001c0c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08001cec        0xc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
-                0x08001cec                HAL_RCC_GetHCLKFreq
+                0x08001d98        0xc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x08001d98                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08001cf8       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
-                0x08001cf8                HAL_RCC_GetPCLK1Freq
+                0x08001da4       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x08001da4                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x08001d20      0x190 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
-                0x08001d20                HAL_RCCEx_PeriphCLKConfig
+                0x08001dcc      0x190 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+                0x08001dcc                HAL_RCCEx_PeriphCLKConfig
+ .text.HAL_TIM_Base_Start
+                0x08001f5c       0x68 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x08001f5c                HAL_TIM_Base_Start
+ .text.HAL_TIM_Base_Start_IT
+                0x08001fc4       0x70 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x08001fc4                HAL_TIM_Base_Start_IT
+ .text.HAL_TIM_OC_DelayElapsedCallback
+                0x08002034        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x08002034                HAL_TIM_OC_DelayElapsedCallback
+ .text.HAL_TIM_IC_CaptureCallback
+                0x08002036        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x08002036                HAL_TIM_IC_CaptureCallback
+ .text.HAL_TIM_PWM_PulseFinishedCallback
+                0x08002038        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x08002038                HAL_TIM_PWM_PulseFinishedCallback
+ .text.HAL_TIM_TriggerCallback
+                0x0800203a        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0800203a                HAL_TIM_TriggerCallback
+ .text.HAL_TIM_IRQHandler
+                0x0800203c      0x178 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x0800203c                HAL_TIM_IRQHandler
+ .text.TIM_Base_SetConfig
+                0x080021b4       0x94 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x080021b4                TIM_Base_SetConfig
+ .text.HAL_TIM_Base_Init
+                0x08002248       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                0x08002248                HAL_TIM_Base_Init
+ .text.HAL_TIMEx_MasterConfigSynchronization
+                0x080022a8       0x78 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                0x080022a8                HAL_TIMEx_MasterConfigSynchronization
+ .text.HAL_TIMEx_CommutCallback
+                0x08002320        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                0x08002320                HAL_TIMEx_CommutCallback
+ .text.HAL_TIMEx_BreakCallback
+                0x08002322        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                0x08002322                HAL_TIMEx_BreakCallback
+ .text.HAL_TIMEx_Break2Callback
+                0x08002324        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                0x08002324                HAL_TIMEx_Break2Callback
+ *fill*         0x08002326        0x2 
  .text.UART_EndRxTransfer
-                0x08001eb0       0x64 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08002328       0x64 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .text.HAL_UART_TxCpltCallback
-                0x08001f14        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08001f14                HAL_UART_TxCpltCallback
+                0x0800238c        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x0800238c                HAL_UART_TxCpltCallback
  .text.UART_EndTransmit_IT
-                0x08001f16       0x2a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x0800238e       0x2a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .text.UART_DMAAbortOnError
-                0x08001f40       0x14 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x080023b8       0x14 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
-                0x08001f54        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08001f54                HAL_UARTEx_RxEventCallback
- *fill*         0x08001f56        0x2 
+                0x080023cc        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x080023cc                HAL_UARTEx_RxEventCallback
+ *fill*         0x080023ce        0x2 
  .text.HAL_UART_IRQHandler
-                0x08001f58      0x320 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08001f58                HAL_UART_IRQHandler
+                0x080023d0      0x320 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x080023d0                HAL_UART_IRQHandler
  .text.UART_RxISR_8BIT
-                0x08002278       0xb8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x080026f0       0xb8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .text.UART_RxISR_16BIT
-                0x08002330       0xb4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x080027a8       0xb4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .text.UART_RxISR_8BIT_FIFOEN
-                0x080023e4      0x1ac CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x0800285c      0x1ac CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .text.UART_RxISR_16BIT_FIFOEN
-                0x08002590      0x1b0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08002a08      0x1b0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .text.HAL_LIN_SendBreak
-                0x08002740       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002740                HAL_LIN_SendBreak
+                0x08002bb8       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08002bb8                HAL_LIN_SendBreak
  .text.HAL_UART_GetError
-                0x08002770        0x6 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002770                HAL_UART_GetError
- *fill*         0x08002776        0x2 
+                0x08002be8        0x6 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08002be8                HAL_UART_GetError
+ *fill*         0x08002bee        0x2 
  .text.UART_SetConfig
-                0x08002778      0x1f0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002778                UART_SetConfig
+                0x08002bf0      0x1f0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08002bf0                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x08002968       0xe0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002968                UART_AdvFeatureConfig
+                0x08002de0       0xe0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08002de0                UART_AdvFeatureConfig
  .text.UART_WaitOnFlagUntilTimeout
-                0x08002a48       0xe4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002a48                UART_WaitOnFlagUntilTimeout
+                0x08002ec0       0xe4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08002ec0                UART_WaitOnFlagUntilTimeout
  .text.HAL_UART_Transmit
-                0x08002b2c       0xf0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002b2c                HAL_UART_Transmit
+                0x08002fa4       0xf0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08002fa4                HAL_UART_Transmit
  .text.UART_CheckIdleState
-                0x08002c1c       0x74 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002c1c                UART_CheckIdleState
+                0x08003094       0x74 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08003094                UART_CheckIdleState
  .text.HAL_LIN_Init
-                0x08002c90       0xa4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002c90                HAL_LIN_Init
+                0x08003108       0xa4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08003108                HAL_LIN_Init
  .text.UART_Start_Receive_IT
-                0x08002d34      0x164 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002d34                UART_Start_Receive_IT
+                0x080031ac      0x164 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x080031ac                UART_Start_Receive_IT
  .text.HAL_UART_Receive_IT
-                0x08002e98       0x62 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x08002e98                HAL_UART_Receive_IT
- *fill*         0x08002efa        0x2 
+                0x08003310       0x62 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x08003310                HAL_UART_Receive_IT
+ *fill*         0x08003372        0x2 
  .text.UARTEx_SetNbDataToProcess
-                0x08002efc       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x08003374       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
  .text.HAL_UARTEx_WakeupCallback
-                0x08002f4c        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
-                0x08002f4c                HAL_UARTEx_WakeupCallback
+                0x080033c4        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x080033c4                HAL_UARTEx_WakeupCallback
  .text.HAL_UARTEx_RxFifoFullCallback
-                0x08002f4e        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
-                0x08002f4e                HAL_UARTEx_RxFifoFullCallback
+                0x080033c6        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x080033c6                HAL_UARTEx_RxFifoFullCallback
  .text.HAL_UARTEx_TxFifoEmptyCallback
-                0x08002f50        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
-                0x08002f50                HAL_UARTEx_TxFifoEmptyCallback
- *fill*         0x08002f52        0x2 
+                0x080033c8        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x080033c8                HAL_UARTEx_TxFifoEmptyCallback
+ *fill*         0x080033ca        0x2 
  .text.HAL_UARTEx_DisableFifoMode
-                0x08002f54       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
-                0x08002f54                HAL_UARTEx_DisableFifoMode
+                0x080033cc       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x080033cc                HAL_UARTEx_DisableFifoMode
  .text.HAL_UARTEx_SetTxFifoThreshold
-                0x08002f94       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
-                0x08002f94                HAL_UARTEx_SetTxFifoThreshold
- *fill*         0x08002fde        0x2 
+                0x0800340c       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x0800340c                HAL_UARTEx_SetTxFifoThreshold
+ *fill*         0x08003456        0x2 
  .text.HAL_UARTEx_SetRxFifoThreshold
-                0x08002fe0       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
-                0x08002fe0                HAL_UARTEx_SetRxFifoThreshold
+                0x08003458       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x08003458                HAL_UARTEx_SetRxFifoThreshold
  .text.__libc_init_array
-                0x08003030       0x44 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-init.o)
-                0x08003030                __libc_init_array
- .text.memset   0x08003074       0xa8 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-memset.o)
-                0x08003074                memset
+                0x080034a8       0x44 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-init.o)
+                0x080034a8                __libc_init_array
+ .text.memset   0x080034ec       0xa8 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-memset.o)
+                0x080034ec                memset
  .text.startup.register_fini
-                0x0800311c       0x18 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08003134       0x10 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atexit.o)
-                0x08003134                atexit
+                0x08003594       0x18 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080035ac       0x10 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atexit.o)
+                0x080035ac                atexit
  .text.__libc_fini_array
-                0x08003144       0x28 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-fini.o)
-                0x08003144                __libc_fini_array
+                0x080035bc       0x28 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-fini.o)
+                0x080035bc                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x0800316c        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
-                0x0800316c                __retarget_lock_acquire_recursive
+                0x080035e4        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
+                0x080035e4                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08003170        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
-                0x08003170                __retarget_lock_release_recursive
+                0x080035e8        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
+                0x080035e8                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08003174       0xac d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08003174                __register_exitproc
+                0x080035ec       0xac d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__atexit.o)
+                0x080035ec                __register_exitproc
  *(.glue_7)
- .glue_7        0x08003220        0x0 linker stubs
+ .glue_7        0x08003698        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08003220        0x0 linker stubs
+ .glue_7t       0x08003698        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08003220        0x0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x08003698        0x0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x08003220        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x08003220                _init
- .init          0x08003224        0x8 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ .init          0x08003698        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x08003698                _init
+ .init          0x0800369c        0x8 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x0800322c        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0800322c                _fini
- .fini          0x08003230        0x8 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
-                0x08003238                . = ALIGN (0x4)
-                0x08003238                _etext = .
+ .fini          0x080036a4        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x080036a4                _fini
+ .fini          0x080036a8        0x8 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+                0x080036b0                . = ALIGN (0x4)
+                0x080036b0                _etext = .
 
-.vfp11_veneer   0x08003238        0x0
- .vfp11_veneer  0x08003238        0x0 linker stubs
+.vfp11_veneer   0x080036b0        0x0
+ .vfp11_veneer  0x080036b0        0x0 linker stubs
 
-.v4_bx          0x08003238        0x0
- .v4_bx         0x08003238        0x0 linker stubs
+.v4_bx          0x080036b0        0x0
+ .v4_bx         0x080036b0        0x0 linker stubs
 
-.iplt           0x08003238        0x0
- .iplt          0x08003238        0x0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x080036b0        0x0
+ .iplt          0x080036b0        0x0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x08003238       0xb8
-                0x08003238                . = ALIGN (0x4)
+.rodata         0x080036b0       0xb8
+                0x080036b0                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.EXV_Loop_Execution.str1.4
-                0x08003238       0x11 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
- *fill*         0x08003249        0x3 
+                0x080036b0       0x11 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+ *fill*         0x080036c1        0x3 
  .rodata.CollectCompleteEXVNum.str1.4
-                0x0800324c       0x15 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x080036c4       0x15 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
  .rodata.main.str1.4
-                0x08003261       0x11 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
- *fill*         0x08003261        0x3 
+                0x080036d9       0x11 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+ *fill*         0x080036d9        0x3 
  .rodata.AHBPrescTable
-                0x08003264       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
-                0x08003264                AHBPrescTable
+                0x080036dc       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x080036dc                AHBPrescTable
  .rodata.APBPrescTable
-                0x080032a4       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
-                0x080032a4                APBPrescTable
+                0x0800371c       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x0800371c                APBPrescTable
  .rodata.UARTPrescTable
-                0x080032c4       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
-                0x080032c4                UARTPrescTable
+                0x0800373c       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x0800373c                UARTPrescTable
  .rodata.denominator.0
-                0x080032dc        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x08003754        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
  .rodata.numerator.1
-                0x080032e4        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x0800375c        0x8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
  .rodata._global_impure_ptr
-                0x080032ec        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-impure.o)
-                0x080032ec                _global_impure_ptr
-                0x080032f0                . = ALIGN (0x4)
+                0x08003764        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-impure.o)
+                0x08003764                _global_impure_ptr
+                0x08003768                . = ALIGN (0x4)
 
-.rel.dyn        0x080032f0        0x0
- .rel.iplt      0x080032f0        0x0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x08003768        0x0
+ .rel.iplt      0x08003768        0x0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.ARM.extab      0x080032f0        0x0
-                0x080032f0                . = ALIGN (0x4)
+.ARM.extab      0x08003768        0x0
+                0x08003768                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080032f0                . = ALIGN (0x4)
+                0x08003768                . = ALIGN (0x4)
 
-.ARM            0x080032f0        0x0
-                0x080032f0                . = ALIGN (0x4)
-                0x080032f0                __exidx_start = .
+.ARM            0x08003768        0x0
+                0x08003768                . = ALIGN (0x4)
+                0x08003768                __exidx_start = .
  *(.ARM.exidx*)
-                0x080032f0                __exidx_end = .
-                0x080032f0                . = ALIGN (0x4)
+                0x08003768                __exidx_end = .
+                0x08003768                . = ALIGN (0x4)
 
-.preinit_array  0x080032f0        0x0
-                0x080032f0                . = ALIGN (0x4)
-                0x080032f0                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08003768        0x0
+                0x08003768                . = ALIGN (0x4)
+                0x08003768                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080032f0                PROVIDE (__preinit_array_end = .)
-                0x080032f0                . = ALIGN (0x4)
+                0x08003768                PROVIDE (__preinit_array_end = .)
+                0x08003768                . = ALIGN (0x4)
 
-.init_array     0x080032f0        0x8
-                0x080032f0                . = ALIGN (0x4)
-                0x080032f0                PROVIDE (__init_array_start = .)
+.init_array     0x08003768        0x8
+                0x08003768                . = ALIGN (0x4)
+                0x08003768                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x080032f0        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x08003768        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x080032f4        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x080032f8                PROVIDE (__init_array_end = .)
-                0x080032f8                . = ALIGN (0x4)
+ .init_array    0x0800376c        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x08003770                PROVIDE (__init_array_end = .)
+                0x08003770                . = ALIGN (0x4)
 
-.fini_array     0x080032f8        0x4
-                0x080032f8                . = ALIGN (0x4)
-                0x080032f8                PROVIDE (__fini_array_start = .)
+.fini_array     0x08003770        0x4
+                0x08003770                . = ALIGN (0x4)
+                0x08003770                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080032f8        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x080032fc                PROVIDE (__fini_array_end = .)
-                0x080032fc                . = ALIGN (0x4)
-                0x080032fc                _sidata = LOADADDR (.data)
+ .fini_array    0x08003770        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x08003774                PROVIDE (__fini_array_end = .)
+                0x08003774                . = ALIGN (0x4)
+                0x08003774                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x474 load address 0x080032fc
+.data           0x20000000      0x48c load address 0x08003774
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
  *(.data*)
  .data.Finished_EXV
-                0x20000000        0xe CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+                0x20000000       0x10 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
                 0x20000000                Finished_EXV
- *fill*         0x2000000e        0x2 
- .data.cycle_init
-                0x20000010        0xb CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
-                0x20000010                cycle_init
- *fill*         0x2000001b        0x1 
- .data.step_init
-                0x2000001c        0xb CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
-                0x2000001c                step_init
+ .data.modeSelect
+                0x20000010        0xa CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+                0x20000010                modeSelect
+ *fill*         0x2000001a        0x2 
+ .data.operation
+                0x2000001c        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+                0x2000001c                operation
+ .data.state_init
+                0x20000020        0x6 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+                0x20000020                state_init
+ *fill*         0x20000026        0x2 
+ .data.stop     0x20000028        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+                0x20000028                stop
+ .data.time_init
+                0x2000002c        0xe CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+                0x2000002c                time_init
  .data.EXV_Compare_Count
-                0x20000027        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000027                EXV_Compare_Count
+                0x2000003a        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x2000003a                EXV_Compare_Count
  .data.SYNC_Frame
-                0x20000028        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000028                SYNC_Frame
- *fill*         0x20000029        0x3 
- .data.chip     0x2000002c        0xf CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x2000002c                chip
- *fill*         0x2000003b        0x1 
+                0x2000003b        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x2000003b                SYNC_Frame
+ .data.chip     0x2000003c        0xf CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x2000003c                chip
+ .data.powerOn  0x2000004b        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x2000004b                powerOn
+ .data.selectMode
+                0x2000004c        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x2000004c                selectMode
+ *fill*         0x2000004d        0x3 
  .data.SystemCoreClock
-                0x2000003c        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
-                0x2000003c                SystemCoreClock
+                0x20000050        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x20000050                SystemCoreClock
  .data.uwTickFreq
-                0x20000040        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x20000040                uwTickFreq
- *fill*         0x20000041        0x3 
+                0x20000054        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x20000054                uwTickFreq
+ *fill*         0x20000055        0x3 
  .data.uwTickPrio
-                0x20000044        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x20000044                uwTickPrio
+                0x20000058        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x20000058                uwTickPrio
+ *fill*         0x2000005c        0x4 
  .data.impure_data
-                0x20000048      0x428 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-impure.o)
+                0x20000060      0x428 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
-                0x20000470        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
-                0x20000470                __atexit_recursive_mutex
+                0x20000488        0x4 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x20000488                __atexit_recursive_mutex
  *(.RamFunc)
  *(.RamFunc*)
-                0x20000474                . = ALIGN (0x4)
-                0x20000474                _edata = .
+                0x2000048c                . = ALIGN (0x4)
+                0x2000048c                _edata = .
 
-.igot.plt       0x20000474        0x0 load address 0x08003770
- .igot.plt      0x20000474        0x0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x20000474                . = ALIGN (0x4)
+.igot.plt       0x2000048c        0x0 load address 0x08003c00
+ .igot.plt      0x2000048c        0x0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x2000048c                . = ALIGN (0x4)
 
-.bss            0x20000474       0xe4 load address 0x08003770
-                0x20000474                _sbss = .
-                0x20000474                __bss_start__ = _sbss
+.bss            0x2000048c      0x130 load address 0x08003c00
+                0x2000048c                _sbss = .
+                0x2000048c                __bss_start__ = _sbss
  *(.bss)
- .bss           0x20000474       0x1c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .bss           0x2000048c       0x1c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  *(.bss*)
  .bss.EXV_Finished_Count
-                0x20000490        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000490                EXV_Finished_Count
- *fill*         0x20000491        0x1 
+                0x200004a8        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004a8                EXV_Finished_Count
+ *fill*         0x200004a9        0x1 
  .bss.EXV_Test_Cycles
-                0x20000492        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000492                EXV_Test_Cycles
+                0x200004aa        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004aa                EXV_Test_Cycles
  .bss.EXV_Test_Step
-                0x20000494        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000494                EXV_Test_Step
+                0x200004ac        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004ac                EXV_Test_Step
  .bss.InfiniteLoop
-                0x20000496        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000496                InfiniteLoop
+                0x200004ae        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004ae                InfiniteLoop
  .bss.LIN_Read_Flag
-                0x20000497        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000497                LIN_Read_Flag
+                0x200004af        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004af                LIN_Read_Flag
  .bss.LIN_Send_Flag
-                0x20000498        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000498                LIN_Send_Flag
- .bss.chip_Num  0x20000499        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x20000499                chip_Num
- *fill*         0x2000049a        0x2 
+                0x200004b0        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004b0                LIN_Send_Flag
+ .bss.chip_Num  0x200004b1        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004b1                chip_Num
+ *fill*         0x200004b2        0x2 
  .bss.pLINRxBuff
-                0x2000049c        0xc CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x2000049c                pLINRxBuff
+                0x200004b4        0xc CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004b4                pLINRxBuff
  .bss.pLINTxBuff
-                0x200004a8        0xa CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                0x200004a8                pLINTxBuff
+                0x200004c0        0xa CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                0x200004c0                pLINTxBuff
  .bss.currentCycleCount
-                0x200004b2        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
-                0x200004b2                currentCycleCount
+                0x200004ca        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+                0x200004ca                currentCycleCount
  .bss.currentStepSize
-                0x200004b4        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
-                0x200004b4                currentStepSize
- .bss.RevByte   0x200004b6        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x200004b6                RevByte
- .bss.RxFlag    0x200004b7        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x200004b7                RxFlag
- .bss.RxLength  0x200004b8        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x200004b8                RxLength
- .bss.pRevByte  0x200004b9        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                0x200004b9                pRevByte
- *fill*         0x200004ba        0x2 
- .bss.huart2    0x200004bc       0x94 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
-                0x200004bc                huart2
- .bss.uwTick    0x20000550        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
-                0x20000550                uwTick
+                0x200004cc        0x2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+                0x200004cc                currentStepSize
+ .bss.RevByte   0x200004ce        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x200004ce                RevByte
+ .bss.RxFlag    0x200004cf        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x200004cf                RxFlag
+ .bss.RxLength  0x200004d0        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x200004d0                RxLength
+ .bss.pRevByte  0x200004d1        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x200004d1                pRevByte
+ .bss.timer     0x200004d2        0x1 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x200004d2                timer
+ *fill*         0x200004d3        0x1 
+ .bss.htim6     0x200004d4       0x4c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+                0x200004d4                htim6
+ .bss.huart2    0x20000520       0x94 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+                0x20000520                huart2
+ .bss.uwTick    0x200005b4        0x4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x200005b4                uwTick
  .bss.__lock___atexit_recursive_mutex
-                0x20000554        0x1 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
-                0x20000554                __lock___atexit_recursive_mutex
+                0x200005b8        0x1 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
+                0x200005b8                __lock___atexit_recursive_mutex
  *(COMMON)
-                0x20000558                . = ALIGN (0x4)
- *fill*         0x20000555        0x3 
-                0x20000558                _ebss = .
-                0x20000558                __bss_end__ = _ebss
+                0x200005bc                . = ALIGN (0x4)
+ *fill*         0x200005b9        0x3 
+                0x200005bc                _ebss = .
+                0x200005bc                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000558      0x600 load address 0x08003770
-                0x20000558                . = ALIGN (0x8)
+                0x200005bc      0x604 load address 0x08003c00
+                0x200005c0                . = ALIGN (0x8)
+ *fill*         0x200005bc        0x4 
                 [!provide]                PROVIDE (end = .)
-                0x20000558                PROVIDE (_end = .)
-                0x20000758                . = (. + _Min_Heap_Size)
- *fill*         0x20000558      0x200 
-                0x20000b58                . = (. + _Min_Stack_Size)
- *fill*         0x20000758      0x400 
-                0x20000b58                . = ALIGN (0x8)
+                0x200005c0                PROVIDE (_end = .)
+                0x200007c0                . = (. + _Min_Heap_Size)
+ *fill*         0x200005c0      0x200 
+                0x20000bc0                . = (. + _Min_Stack_Size)
+ *fill*         0x200007c0      0x400 
+                0x20000bc0                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1408,117 +1784,132 @@ LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-non
  .ARM.attributes
                 0x0000017e       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
  .ARM.attributes
-                0x000001aa       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+                0x000001aa       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
  .ARM.attributes
-                0x000001d6       0x22 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+                0x000001d6       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
  .ARM.attributes
-                0x000001f8       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x00000202       0x22 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
  .ARM.attributes
-                0x00000224       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x00000224       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
  .ARM.attributes
-                0x00000250       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x00000250       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
  .ARM.attributes
-                0x0000027c       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+                0x0000027c       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
  .ARM.attributes
-                0x000002a8       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+                0x000002a8       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
  .ARM.attributes
-                0x000002d4       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x000002d4       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
  .ARM.attributes
-                0x00000300       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+                0x00000300       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
  .ARM.attributes
-                0x0000032c       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x0000032c       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
  .ARM.attributes
-                0x00000358       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x00000358       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
  .ARM.attributes
-                0x00000384       0x1e d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x00000384       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x000003a2       0x1e d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+                0x000003b0       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .ARM.attributes
-                0x000003c0       0x1e d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000003dc       0x2c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
  .ARM.attributes
-                0x000003de       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-impure.o)
+                0x00000408       0x1e d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x0000040a       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-init.o)
+                0x00000426       0x1e d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
  .ARM.attributes
-                0x00000436       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-memset.o)
+                0x00000444       0x1e d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000462       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x00000462       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000048e       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atexit.o)
+                0x0000048e       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x000004ba       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-fini.o)
+                0x000004ba       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-memset.o)
  .ARM.attributes
-                0x000004e6       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
+                0x000004e6       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x00000512       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__atexit.o)
+                0x00000512       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atexit.o)
  .ARM.attributes
-                0x0000053e       0x1e d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+                0x0000053e       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000056a       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000596       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000005c2       0x1e d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
 OUTPUT(LIN_Drive_Box.elf elf32-littlearm)
 LOAD linker stubs
 LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
 LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x10816
- .debug_info    0x00000000      0xae4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
- .debug_info    0x00000ae4     0x134b CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
- .debug_info    0x00001e2f      0x583 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x000023b2      0x3b3 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
- .debug_info    0x00002765      0xfdc CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00003741      0x2ba CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
- .debug_info    0x000039fb      0x85a CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
- .debug_info    0x00004255      0x38d CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_info    0x000045e2      0xe3e CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x00005420       0x22 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
- .debug_info    0x00005442      0x9c6 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_info    0x00005e08      0xa4b CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_info    0x00006853      0xa54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_info    0x000072a7      0x62f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_info    0x000078d6      0x558 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_info    0x00007e2e      0xd38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_info    0x00008b66      0x8f6 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_info    0x0000945c     0x6184 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
- .debug_info    0x0000f5e0     0x1236 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+.debug_info     0x00000000    0x17be0
+ .debug_info    0x00000000      0xb7c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+ .debug_info    0x00000b7c     0x1326 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+ .debug_info    0x00001ea2      0x583 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x00002425      0x36d CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+ .debug_info    0x00002792     0x1473 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00003c05      0x2ba CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_info    0x00003ebf      0xc4d CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_info    0x00004b0c      0x38d CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_info    0x00004e99      0xbe6 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .debug_info    0x00005a7f      0xe3e CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x000068bd       0x22 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+ .debug_info    0x000068df      0x9c6 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_info    0x000072a5      0xa4b CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_info    0x00007cf0      0xa54 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_info    0x00008744      0x62f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_info    0x00008d73      0x558 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_info    0x000092cb      0xd38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_info    0x0000a003      0x8f6 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_info    0x0000a8f9     0x3fe4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_info    0x0000e8dd     0x1f49 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_info    0x00010826     0x6184 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+ .debug_info    0x000169aa     0x1236 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
 
-.debug_abbrev   0x00000000     0x26f1
- .debug_abbrev  0x00000000      0x1c7 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
- .debug_abbrev  0x000001c7      0x301 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
- .debug_abbrev  0x000004c8      0x177 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x0000063f      0x16d CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
- .debug_abbrev  0x000007ac      0x298 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000a44      0x10c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
- .debug_abbrev  0x00000b50      0x1c6 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
- .debug_abbrev  0x00000d16      0x142 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_abbrev  0x00000e58      0x205 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x0000105d       0x12 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
- .debug_abbrev  0x0000106f      0x29c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_abbrev  0x0000130b      0x2af CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_abbrev  0x000015ba      0x20a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_abbrev  0x000017c4      0x1fd CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_abbrev  0x000019c1      0x1f8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00001bb9      0x29a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_abbrev  0x00001e53      0x24e CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x000020a1      0x33b CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
- .debug_abbrev  0x000023dc      0x315 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+.debug_abbrev   0x00000000     0x2e0d
+ .debug_abbrev  0x00000000      0x1e9 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+ .debug_abbrev  0x000001e9      0x301 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+ .debug_abbrev  0x000004ea      0x177 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x00000661      0x16b CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+ .debug_abbrev  0x000007cc      0x2ab CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000a77      0x10c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_abbrev  0x00000b83      0x1d9 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_abbrev  0x00000d5c      0x142 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_abbrev  0x00000e9e      0x218 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .debug_abbrev  0x000010b6      0x205 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x000012bb       0x12 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+ .debug_abbrev  0x000012cd      0x29c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_abbrev  0x00001569      0x2af CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001818      0x20a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_abbrev  0x00001a22      0x1fd CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001c1f      0x1f8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00001e17      0x29a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_abbrev  0x000020b1      0x24e CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x000022ff      0x254 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_abbrev  0x00002553      0x26a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x000027bd      0x33b CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+ .debug_abbrev  0x00002af8      0x315 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
 
-.debug_loc      0x00000000     0x82f6
- .debug_loc     0x00000000      0x263 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
- .debug_loc     0x00000263      0x6a5 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
- .debug_loc     0x00000908      0x1d0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
- .debug_loc     0x00000ad8       0xed CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
- .debug_loc     0x00000bc5       0xa9 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_loc     0x00000c6e       0x81 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
- .debug_loc     0x00000cef      0x1bd CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_loc     0x00000eac      0x458 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_loc     0x00001304      0x93e CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_loc     0x00001c42      0x3a7 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_loc     0x00001fe9      0x2e0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_loc     0x000022c9      0x717 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_loc     0x000029e0      0x7bd CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_loc     0x0000319d     0x450a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
- .debug_loc     0x000076a7      0xc4f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+.debug_loc      0x00000000    0x1051d
+ .debug_loc     0x00000000      0x27f CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+ .debug_loc     0x0000027f      0x692 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+ .debug_loc     0x00000911      0x112 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+ .debug_loc     0x00000a23      0x14c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+ .debug_loc     0x00000b6f       0xa9 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_loc     0x00000c18       0x84 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .debug_loc     0x00000c9c       0x81 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+ .debug_loc     0x00000d1d      0x1bd CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_loc     0x00000eda      0x458 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_loc     0x00001332      0x93e CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_loc     0x00001c70      0x3a7 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_loc     0x00002017      0x2e0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_loc     0x000022f7      0x717 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_loc     0x00002a0e      0x7bd CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_loc     0x000031cb     0x587d CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_loc     0x00008a48     0x297c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_loc     0x0000b3c4     0x450a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+ .debug_loc     0x0000f8ce      0xc4f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
 
-.debug_aranges  0x00000000      0x928
+.debug_aranges  0x00000000      0xee8
  .debug_aranges
                 0x00000000       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
  .debug_aranges
@@ -1528,116 +1919,134 @@ LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-non
  .debug_aranges
                 0x000000e0       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
  .debug_aranges
-                0x00000110       0x58 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                0x00000110       0x68 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x00000168       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+                0x00000178       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
  .debug_aranges
-                0x00000188       0x48 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                0x00000198       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
  .debug_aranges
-                0x000001d0       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+                0x000001e8       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
  .debug_aranges
-                0x000001f8       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+                0x00000210       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
  .debug_aranges
-                0x00000228       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+                0x00000240       0x30 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
  .debug_aranges
-                0x00000250       0xf8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+                0x00000270       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
  .debug_aranges
-                0x00000348       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+                0x00000298       0xf8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
  .debug_aranges
-                0x000003d8       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+                0x00000390       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000468       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+                0x00000420       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
  .debug_aranges
-                0x000004c8       0x98 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+                0x000004b0       0x60 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000560       0x98 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+                0x00000510       0x98 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
  .debug_aranges
-                0x000005f8       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+                0x000005a8       0x98 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000638      0x248 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+                0x00000640       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
  .debug_aranges
-                0x00000880       0xa8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+                0x00000680      0x3e0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_aranges
+                0x00000a60      0x198 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_aranges
+                0x00000bf8      0x248 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+ .debug_aranges
+                0x00000e40       0xa8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
 
-.debug_ranges   0x00000000      0x8c8
+.debug_ranges   0x00000000      0xe58
  .debug_ranges  0x00000000       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
  .debug_ranges  0x00000040       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
  .debug_ranges  0x000000d0       0x10 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
  .debug_ranges  0x000000e0       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
- .debug_ranges  0x00000100       0x48 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00000148       0x10 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
- .debug_ranges  0x00000158       0x38 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
- .debug_ranges  0x00000190       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_ranges  0x000001a8       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
- .debug_ranges  0x000001c8       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
- .debug_ranges  0x000001e8       0xe8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_ranges  0x000002d0       0xe0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_ranges  0x000003b0       0x80 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_ranges  0x00000430       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_ranges  0x00000480       0x88 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_ranges  0x00000508       0xa8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_ranges  0x000005b0       0x48 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_ranges  0x000005f8      0x238 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
- .debug_ranges  0x00000830       0x98 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+ .debug_ranges  0x00000100       0x58 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x00000158       0x10 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_ranges  0x00000168       0x40 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_ranges  0x000001a8       0x18 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_ranges  0x000001c0       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .debug_ranges  0x000001e0       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+ .debug_ranges  0x00000200       0x20 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+ .debug_ranges  0x00000220       0xe8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_ranges  0x00000308       0xe0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_ranges  0x000003e8       0x80 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_ranges  0x00000468       0x50 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_ranges  0x000004b8       0x88 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_ranges  0x00000540       0xa8 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_ranges  0x000005e8       0x48 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_ranges  0x00000630      0x3d0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_ranges  0x00000a00      0x188 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_ranges  0x00000b88      0x238 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+ .debug_ranges  0x00000dc0       0x98 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
 
-.debug_line     0x00000000     0xb752
- .debug_line    0x00000000      0x4a4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
- .debug_line    0x000004a4      0x751 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
- .debug_line    0x00000bf5      0x2f7 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000eec      0x377 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
- .debug_line    0x00001263      0x5b8 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
- .debug_line    0x0000181b      0x225 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
- .debug_line    0x00001a40      0x322 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
- .debug_line    0x00001d62      0x2fe CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_line    0x00002060      0x44c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x000024ac       0xaf CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
- .debug_line    0x0000255b      0x664 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_line    0x00002bbf      0x71c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_line    0x000032db      0xb8b CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_line    0x00003e66      0x71f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_line    0x00004585      0x5dc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_line    0x00004b61      0xde7 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_line    0x00005948      0x858 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_line    0x000061a0     0x487a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
- .debug_line    0x0000aa1a      0xd38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+.debug_line     0x00000000    0x12d9a
+ .debug_line    0x00000000      0x4b2 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+ .debug_line    0x000004b2      0x74f CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+ .debug_line    0x00000c01      0x2f7 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00000ef8      0x35c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+ .debug_line    0x00001254      0x711 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00001965      0x225 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_line    0x00001b8a      0x352 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_line    0x00001edc      0x2fe CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_line    0x000021da      0x386 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .debug_line    0x00002560      0x44c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x000029ac       0xaf CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+ .debug_line    0x00002a5b      0x664 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_line    0x000030bf      0x71c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_line    0x000037db      0xb8b CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_line    0x00004366      0x71f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_line    0x00004a85      0x5dc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_line    0x00005061      0xde7 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_line    0x00005e48      0x858 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_line    0x000066a0     0x513f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_line    0x0000b7df     0x2009 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_line    0x0000d7e8     0x487a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+ .debug_line    0x00012062      0xd38 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
 
-.debug_str      0x00000000     0x374e
- .debug_str     0x00000000      0x310 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
-                                0x379 (size before relaxing)
- .debug_str     0x00000310      0xe38 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
-                               0x10d8 (size before relaxing)
- .debug_str     0x00001148      0x149 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
+.debug_str      0x00000000     0x511b
+ .debug_str     0x00000000      0x32a CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
+                                0x393 (size before relaxing)
+ .debug_str     0x0000032a      0xe38 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
+                               0x10c7 (size before relaxing)
+ .debug_str     0x00001162      0x149 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
                                 0x3a8 (size before relaxing)
- .debug_str     0x00001291       0x92 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
-                                0x2e8 (size before relaxing)
- .debug_str     0x00001323      0x291 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
-                                0xb10 (size before relaxing)
- .debug_str     0x000015b4       0x73 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_str     0x000012ab       0x92 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+                                0x2d7 (size before relaxing)
+ .debug_str     0x0000133d      0x601 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+                                0xec1 (size before relaxing)
+ .debug_str     0x0000193e       0x73 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
                                 0x300 (size before relaxing)
- .debug_str     0x00001627       0xbc CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
-                                0x7dc (size before relaxing)
- .debug_str     0x000016e3       0xb4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_str     0x000019b1       0xdf CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+                                0xb2a (size before relaxing)
+ .debug_str     0x00001a90       0xb4 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
                                 0x348 (size before relaxing)
- .debug_str     0x00001797      0x38b CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+ .debug_str     0x00001b44      0x2ee CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+                                0xbb9 (size before relaxing)
+ .debug_str     0x00001e32      0x1a7 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
                                 0xc2e (size before relaxing)
- .debug_str     0x00001b22       0x5c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
+ .debug_str     0x00001fd9       0x5c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj
                                  0x97 (size before relaxing)
- .debug_str     0x00001b7e      0x3b3 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_str     0x00002035      0x3b3 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
                                 0x8a2 (size before relaxing)
- .debug_str     0x00001f31      0x348 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_str     0x000023e8      0x33c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
                                 0x781 (size before relaxing)
- .debug_str     0x00002279      0x2e5 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_str     0x00002724      0x2e0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
                                 0x7e2 (size before relaxing)
- .debug_str     0x0000255e      0x13f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_str     0x00002a04      0x13f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
                                 0x45d (size before relaxing)
- .debug_str     0x0000269d      0x2c4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_str     0x00002b43      0x2c4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
                                 0x548 (size before relaxing)
- .debug_str     0x00002961      0x216 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_str     0x00002e07      0x216 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
                                 0x7be (size before relaxing)
- .debug_str     0x00002b77      0x13c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_str     0x0000301d      0x13c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
                                 0x62a (size before relaxing)
- .debug_str     0x00002cb3      0x816 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+ .debug_str     0x00003159      0xeb4 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+                               0x1817 (size before relaxing)
+ .debug_str     0x0000400d      0x68f CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+                               0x1198 (size before relaxing)
+ .debug_str     0x0000469c      0x80a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
                                0x11aa (size before relaxing)
- .debug_str     0x000034c9      0x285 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+ .debug_str     0x00004ea6      0x275 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
                                 0xba4 (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -1650,6 +2059,7 @@ LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-non
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
@@ -1658,34 +2068,39 @@ LOAD d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-non
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
  .comment       0x00000049       0x4a CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
 
-.debug_frame    0x00000000     0x1808
+.debug_frame    0x00000000     0x286c
  .debug_frame   0x00000000       0xdc CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj
  .debug_frame   0x000000dc      0x120 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/LIN.c.obj
  .debug_frame   0x000001fc       0x3c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/gpio.c.obj
- .debug_frame   0x00000238       0x68 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
- .debug_frame   0x000002a0       0xb8 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x00000358       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
- .debug_frame   0x00000380       0x80 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
- .debug_frame   0x00000400       0x38 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
- .debug_frame   0x00000438       0x5c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
- .debug_frame   0x00000494      0x1fc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
- .debug_frame   0x00000690      0x114 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
- .debug_frame   0x000007a4      0x188 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
- .debug_frame   0x0000092c       0xd0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
- .debug_frame   0x000009fc      0x120 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
- .debug_frame   0x00000b1c      0x16c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
- .debug_frame   0x00000c88       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
- .debug_frame   0x00000d18      0x6e0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
- .debug_frame   0x000013f8      0x1e0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
- .debug_frame   0x000015d8       0x20 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
- .debug_frame   0x000015f8       0x20 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
- .debug_frame   0x00001618       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x00001644       0x30 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x00001674       0x54 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x000016c8       0x28 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x000016f0       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x0000171c       0xb0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x000017cc       0x3c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x00000238       0x5c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/key.c.obj
+ .debug_frame   0x00000294       0xe0 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x00000374       0x28 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+ .debug_frame   0x0000039c       0x98 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj
+ .debug_frame   0x00000434       0x38 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj
+ .debug_frame   0x0000046c       0x58 CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj
+ .debug_frame   0x000004c4       0x5c CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj
+ .debug_frame   0x00000520      0x1fc CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+ .debug_frame   0x0000071c      0x114 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+ .debug_frame   0x00000830      0x188 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+ .debug_frame   0x000009b8       0xd0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+ .debug_frame   0x00000a88      0x120 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+ .debug_frame   0x00000ba8      0x16c CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+ .debug_frame   0x00000d14       0x90 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+ .debug_frame   0x00000da4      0xb18 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+ .debug_frame   0x000018bc      0x4c0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+ .debug_frame   0x00001d7c      0x6e0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+ .debug_frame   0x0000245c      0x1e0 CMakeFiles/LIN_Drive_Box.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+ .debug_frame   0x0000263c       0x20 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000265c       0x20 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_frame   0x0000267c       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x000026a8       0x30 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x000026d8       0x54 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000272c       0x28 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00002754       0x2c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00002780       0xb0 d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00002830       0x3c d:/stmicroelectronics/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-__atexit.o)

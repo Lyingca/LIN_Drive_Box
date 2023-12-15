@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/sysmem.c.obj.d"
   "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj"
   "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/system_stm32g0xx.c.obj.d"
+  "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj"
+  "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/tim.c.obj.d"
   "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj"
   "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/usart.c.obj.d"
   "CMakeFiles/LIN_Drive_Box.elf.dir/Core/Startup/startup_stm32g070rbtx.s.obj"

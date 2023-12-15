@@ -36,6 +36,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/stm32g0xx_it.c.obj: \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_flash_ex.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_pwr.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_pwr_ex.h \
+ D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_tim.h \
+ D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_tim_ex.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_uart.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_uart_ex.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Inc/stm32g0xx_it.h \

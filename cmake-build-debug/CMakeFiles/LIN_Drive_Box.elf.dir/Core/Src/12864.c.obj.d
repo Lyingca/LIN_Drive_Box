@@ -37,6 +37,8 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/12864.c.obj: \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_flash_ex.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_pwr.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_pwr_ex.h \
+ D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_tim.h \
+ D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_tim_ex.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_uart.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_uart_ex.h \
  d:\stmicroelectronics\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\string.h \

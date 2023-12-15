@@ -56,6 +56,7 @@ void Error_Handler(void);
 void ms_Delay(uint16_t t_ms);
 void Util_Receive_IT(UART_HandleTypeDef *huart);
 void UART_IDLECallBack(UART_HandleTypeDef *huart);
+void stateReversal(uint8_t *state);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

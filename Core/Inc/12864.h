@@ -13,6 +13,9 @@
 #define THIRD_LINE 0x88
 #define FOURTH_LINE 0x98
 
+extern uint8_t operation[4];
+extern uint8_t stop[4];
+
 void LCDInit(void);
 void DisplayCharacter(uint8_t addr,uint16_t character,uint8_t count);
 void DisplayChineseCharacter(uint8_t addr,uint8_t *character,uint8_t count);

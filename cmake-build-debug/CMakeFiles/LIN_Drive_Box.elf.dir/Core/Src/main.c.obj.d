@@ -36,10 +36,13 @@ CMakeFiles/LIN_Drive_Box.elf.dir/Core/Src/main.c.obj: \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_flash_ex.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_pwr.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_pwr_ex.h \
+ D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_tim.h \
+ D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_tim_ex.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_uart.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Drivers\STM32G0xx_HAL_Driver\Inc/stm32g0xx_hal_uart_ex.h \
- D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Inc/usart.h \
+ D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Inc/tim.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Inc/main.h \
+ D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Inc/usart.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Inc/gpio.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Inc/key.h \
  D:\JetBrains\CLionProjects\LIN_Drive_Box\Core\Inc/12864.h \
