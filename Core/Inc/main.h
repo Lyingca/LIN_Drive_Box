@@ -108,7 +108,8 @@ void stateReversal(uint8_t *state);
 #define Start_Key_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+//模式3通断电循环次数设定值
+#define MODE_CYCLE_TIMES_SET_VALUE 10
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

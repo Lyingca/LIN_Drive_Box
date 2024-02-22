@@ -53,7 +53,8 @@ uint8_t RxFlag = 0;
 uint8_t RxLength = 0;
 uint8_t selectMode = 1;
 uint8_t timer = 0;
-uint8_t powerOn = ENABLE;
+uint8_t powerOn = DISABLE;
+uint8_t patternCycleNumber = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -124,6 +125,7 @@ int main(void)
     InfiniteLoop = 1;
     currentStepSize = 480;
     currentCycleCount = 61000;
+    patternCycleNumber = 0;
     Data_To_LIN(currentStepSize,currentCycleCount,0);
   /* USER CODE END 2 */
 
@@ -134,7 +136,7 @@ int main(void)
     /* USER CODE END WHILE */
 
       //显示屏刷新
-      if (powerOn)
+      if (powerOn && patternCycleNumber < MODE_CYCLE_TIMES_SET_VALUE)
       {
           DisplayChineseCharacter(FIRST_LINE + 3,operation,sizeof(operation) / sizeof(uint8_t));
       }
@@ -144,12 +146,14 @@ int main(void)
       }
       DisplayCharacter(SECOND_LINE + 3,timer,3);
       DisplayCharacter(FOURTH_LINE + 5,selectMode,1);
+      DisplayCharacter(FIRST_LINE + 7,patternCycleNumber,2);
       //检测开始按钮（模式1）
       if (General_Key_Scan(Start_Key_GPIO_Port,Start_Key_Pin))
       {
           selectMode = 1;
           powerOn = ENABLE;
           timer = 0;
+          patternCycleNumber = 0;
           //定时器计数清零
           __HAL_TIM_SET_COUNTER(&htim6,0);
           DisplayChineseCharacter(THIRD_LINE,"                ", strlen("                "));
@@ -160,12 +164,24 @@ int main(void)
           selectMode = 2;
           powerOn = ENABLE;
           timer = 0;
+          patternCycleNumber = 0;
+          //定时器计数清零
+          __HAL_TIM_SET_COUNTER(&htim6,0);
+          DisplayChineseCharacter(THIRD_LINE,"                ", strlen("                "));
+      }
+      //检测步数加按钮（模式3）
+      if (General_Key_Scan(Step_Add_GPIO_Port,Step_Add_Pin))
+      {
+          selectMode = 3;
+          powerOn = ENABLE;
+          timer = 0;
+          patternCycleNumber = 0;
           //定时器计数清零
           __HAL_TIM_SET_COUNTER(&htim6,0);
           DisplayChineseCharacter(THIRD_LINE,"                ", strlen("                "));
       }
       //循环发送数据
-      if(powerOn)
+      if(powerOn && patternCycleNumber < MODE_CYCLE_TIMES_SET_VALUE)
       {
           Send_LIN_Data();
       }
@@ -294,10 +310,10 @@ void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
  */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
-    if(htim->Instance == htim6.Instance)
+    if(htim->Instance == htim6.Instance && patternCycleNumber < MODE_CYCLE_TIMES_SET_VALUE)
     {
         timer++;
-        if(selectMode == 1 && timer == 240)
+        if(selectMode == 1 && timer == 60)
         {
             stateReversal(&powerOn);
             timer = 0;
@@ -309,6 +325,15 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
         if (selectMode == 2 && powerOn == DISABLE && timer == 240){
             powerOn = ENABLE;
             timer = 0;
+        }
+        if(selectMode == 3 && powerOn == ENABLE && timer == 350){
+            powerOn = DISABLE;
+            timer = 0;
+        }
+        if(selectMode == 3 && powerOn == DISABLE && timer == 130){
+            powerOn = ENABLE;
+            timer = 0;
+            patternCycleNumber++;
         }
     }
 }
